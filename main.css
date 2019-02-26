@@ -1,0 +1,18 @@
+* {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       text-decoration: none;
+}
+
+h1 {
+       background-color: #70113F;
+       color: aliceblue;
+       font-size: 60px;
+       font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+       font-size: 30px;
+       font-family: 'Open Sans', sans-serif;
+}
