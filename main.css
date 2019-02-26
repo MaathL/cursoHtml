@@ -1,18 +1,24 @@
 * {
        box-sizing: border-box;
+       font-family: 'Crimson Text', Times, serif;
        margin: 0;
        padding: 0;
        text-decoration: none;
 }
 
-h1 {
-       background-color: #70113F;
-       color: aliceblue;
-       font-size: 60px;
-       font-family: 'Open Sans', sans-serif;
+body {
+       background: #F2FFFC;
 }
 
-h2 {
-       font-size: 30px;
-       font-family: 'Open Sans', sans-serif;
+h1, h2 {
+       font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+
+h1 {
+       background-color: #851944;
+       color: #fff;
+}
+
+p {
+       text-align: justify;
 }
