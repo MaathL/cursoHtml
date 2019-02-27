@@ -1,8 +1,6 @@
 * {
        box-sizing: border-box;
        font-family: 'Crimson Text', Times, serif;
-       margin: 0;
-       padding: 0;
        text-decoration: none;
 }
 
@@ -16,10 +14,15 @@ aside, aside a, footer {
 
 blockquote {
        background: #D9E5E3;
+       border: 10px #c2ccca solid;
+       margin: 0;
+       padding: 16px;
+       width: 250px;
 }
 
 body {
        background: #F2FFFC;
+       margin: 0;
 }
 
 footer {
@@ -38,6 +41,10 @@ main a {
 main h1 {
        background-color: #851944;
        color: #fff;
+       font-size: 60px;
+       margin: 0;
+       padding: 20px;
+       text-align: center;
 }
 
 p {
