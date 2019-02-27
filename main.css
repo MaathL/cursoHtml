@@ -30,6 +30,11 @@ h1, h2 {
        font-family: 'Open Sans Condensed', Arial, sans-serif;
 }
 
+main a {
+       color: #851944;
+       font-family: "Open Sans Condensed", sans-serif;
+}
+
 main h1 {
        background-color: #851944;
        color: #fff;
