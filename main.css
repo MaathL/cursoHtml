@@ -76,6 +76,7 @@ main h1 {
        margin: 0;
        padding: 25px;
        text-align: center;
+       text-transform: uppercase;
 }
 
 p {
@@ -100,6 +101,10 @@ ul {
        color: #F2FFFC;
 }
 
+.github {
+       background-image: url(github.png);
+}
+
 .leiaMais {
        background: #3C1D3D;
        color: #F2FFFC;
@@ -108,4 +113,19 @@ ul {
        margin: 16px;
        padding: 8px;
        text-align: center;
+}
+
+.linkedin {
+       background-image: url(linkedin.png);
+}
+
+.iconesMidiasSociais a {
+       display: inline-block;
+       height: 40px;
+       text-indent: -10000px;
+       width: 40px;
+}
+
+.twitter {
+       background-image: url(twitter.png);
 }
