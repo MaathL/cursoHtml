@@ -6,6 +6,8 @@
 
 aside {
        background: #3C1D3D;
+       padding: 20px;
+       text-align: center;
 }
 
 aside, aside a, footer {
@@ -16,7 +18,7 @@ blockquote {
        background: #D9E5E3;
        border: 10px #c2ccca solid;
        margin: 0;
-       padding: 16px;
+       padding: 20px;
        width: 250px;
 }
 
@@ -25,12 +27,22 @@ body {
        margin: 0;
 }
 
+div {
+       width: 720px;
+       margin: auto;
+}
+
 footer {
        background: #000;
+       padding: 20px;
 }
 
 h1, h2 {
        font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+
+main {
+       line-height: 1.5;
 }
 
 main a {
@@ -40,13 +52,18 @@ main a {
 
 main h1 {
        background-color: #851944;
+       border-bottom: 10px solid #000;
        color: #fff;
-       font-size: 60px;
+       font-size: 40px;
        margin: 0;
-       padding: 20px;
+       padding: 25px;
        text-align: center;
 }
 
 p {
        text-align: justify;
+}
+
+ul {
+       list-style-type: none;
 }
