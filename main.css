@@ -57,10 +57,13 @@ h1, h2 {
 
 h2 {
        font-size: 30px;
+       clear: both;
 }
 
 main {
+       float: left;
        line-height: 1.5;
+       width: 85%
 }
 
 main a {
@@ -94,11 +97,16 @@ ul {
 
 #mainFooter {
        background: #000;
+       clear: both;
        padding: 20px;
 }
 
 .colorWhite {
        color: #F2FFFC;
+}
+
+.fiat {
+       float: right;
 }
 
 .github {
@@ -122,8 +130,17 @@ ul {
 .iconesMidiasSociais a {
        display: inline-block;
        height: 40px;
-       text-indent: -10000px;
+       color: transparent;
        width: 40px;
+}
+
+.menuNavegacao, img {
+       float: right;
+       width: 15%;
+}
+
+.petrobras {
+       float: left;
 }
 
 .twitter {
