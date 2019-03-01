@@ -25,6 +25,10 @@ aside > ul li {
        display: inline-block;
 }
 
+aside, aside a, footer {
+       color: #F2FFFC;
+}
+
 blockquote {
        background: #D9E5E3;
        border: 10px #c2ccca solid;
