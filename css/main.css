@@ -54,12 +54,6 @@ cite {
        font-style: italic;
 }
 
-div {
-       margin: auto;
-       padding: 30px 0;
-       width: 720px;
-}
-
 em {
        font-style: italic;
 }
@@ -119,6 +113,13 @@ ul {
        bottom: 0;
 }
 
+.centralizador {
+       font-size: 18px;
+       margin: auto;
+       padding: 30px 0;
+       width: 720px;
+}
+
 .colorWhite {
        color: #F2FFFC;
 }
@@ -127,8 +128,19 @@ ul {
        float: right;
 }
 
+.fotoPerfil {
+       width: auto;
+       height: 310px;
+       position: absolute;
+       top: 0;
+       right: 0;
+       float: right;
+       border-left: 10px solid black;
+       border-bottom: 10px solid black;
+}
+
 .github {
-       background-image: url(github.png);
+       background-image: url(../img/github.png);
 }
 
 .leiaMais {
@@ -142,7 +154,7 @@ ul {
 }
 
 .linkedin {
-       background-image: url(linkedin.png);
+       background-image: url(../img/linkedin.png);
 }
 
 .iconesMidiasSociais a {
@@ -161,21 +173,23 @@ ul {
        top: 310px;
 }
 
-img {
-       width: auto;
-       height: 310px;
-       position: absolute;
-       top: 0;
-       right: 0;
-       float: right;
-       border-left: 10px solid black;
-       border-bottom: 10px solid black;
-}
-
 .petrobras {
        float: left;
 }
 
+.sites {
+       border: solid black 8px;
+       display: inline-block;
+       margin: 10px;
+       padding: 15px;
+       width: 335px;
+}
+
+.sites img {
+       text-align: center;
+       width: 100%;
+}
+
 .twitter {
-       background-image: url(twitter.png);
+       background-image: url(../img/twitter.png);
 }
