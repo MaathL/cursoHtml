@@ -19,10 +19,18 @@ aside {
 aside h1 {
        font-size: 30px;
        margin-bottom: 25px;
+       text-transform: uppercase;
 }
 
 aside > ul li {
        display: inline-block;
+}
+
+aside nav li {
+       font-family: 'Open Sans Condensed', sans-serif;
+       font-size: 20px;
+       margin-bottom: 10px;
+       text-transform: lowercase;
 }
 
 aside, aside a, footer {
